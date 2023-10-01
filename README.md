@@ -25,16 +25,13 @@ Este proyecto tiene como objetivo crear un personaje navideño interactivo que s
 ## Prototipo en Dibujo
 ![Pastorcita](https://github.com/elizabethgutierrez27/PersonajeNavidenio/blob/main/assets/146129308/fad68246-bfbb-4df2-a038-863203ddc4bd.png)
 
-## Instrucciones de Uso
-1. Conecta el ESP32 y carga el código del personaje navideño.
-2. Asegúrate de que el personaje esté encendido y conectado a una fuente de alimentación.
-3. Utiliza la aplicación móvil o el control remoto para controlar los movimientos, la iluminación y la música del personaje.
+## Comunicación
+El personaje se comunica con un dispositivo móvil a través de una conexión WiFi, lo que permite el control remoto de sus funciones.
 
-¡Disfruta de la temporada navideña con tu pastorcita interactiva!
+## Arquitectura
+El diseño de la arquitectura incluye un microcontrolador ESP32 como el cerebro del personaje, sensores para la interacción, motores para el movimiento y una conexión WiFi para la comunicación remota.
 
-## Créditos
-Este proyecto fue creado por [Tu Nombre] como parte del curso de [Nombre del Curso] en [Nombre de la Universidad o Institución].
+## Base de Datos
+Este proyecto no requiere una base de datos ya que se centra en la interacción en tiempo real con el dispositivo móvil.
 
-## Licencia
-Este proyecto se encuentra bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
 
